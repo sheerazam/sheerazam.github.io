@@ -1,29 +1,35 @@
-ZeroFour 2.5 by HTML5 UP
+Prologue 1.1 by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-A responsive blog/magazine site template design named as such because it's the fourth 
-design up here (very creative I know). Has plenty of room for all sorts of content 
-and even multilevel drop down menus.
+This is Prologue, a simple, single page responsive site template. It features a
+clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
+	
+Demo images* are courtesy of the ridiculously talented Felicia Simion. Check out
+more of her amazing work over at deviantART:
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+http://ineedchemicalx.deviantart.com/
+
+* Not included with this download (replaced with generic placeholder images).
+I only have permission to use her work in my own onsite demos so do NOT download
+or use any of her photos without her explicit permission.
+
 
 AJ
 n33.co @n33co dribbble.com/n33
 
 
-Credits:
+Credits
 
-	Images:
-		fotogrph (fotogrph.com)
-
+	Images (Demo Only)
+		Felicia Simion (http://ineedchemicalx.deviantart.com/)
+		
 	Icons
 		Font Awesome (http://fortawesome.github.com/Font-Awesome/)
 
-	Other:
+	Other
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		CSS3 Pie (css3pie.com)
-		jquery.dropotron (n33.co)
-		skelJS (skeljs.org)
+		skelJS (skelJS.org)
