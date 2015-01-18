@@ -12,8 +12,7 @@ more of her amazing work over at deviantART:
 http://ineedchemicalx.deviantart.com/
 
 * Not included with this download (replaced with generic placeholder images).
-I only have permission to use her work in my own onsite demos so do NOT download
-or use any of her photos without her explicit permission.
+
 
 
 AJ
