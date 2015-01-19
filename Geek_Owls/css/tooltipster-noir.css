@@ -1,0 +1,17 @@
+.tooltipster-noir {
+	border-radius: 4px; 
+	border-bottom: 5px solid #d65739;
+	border-top: 5px solid #d65739;
+	background-color:#959281;
+	color: #c9c5ac;
+}
+.tooltipster-noir .tooltipster-content {
+	font-size: 12.5px;
+	line-height: 16px;
+	padding: 20px 10px;
+	text-align: center;
+	font-family: futura condensed;
+	word-spacing: 2px;
+	letter-spacing:0.5px;
+	text-shadow: 0px 1px 1px #757466;
+}

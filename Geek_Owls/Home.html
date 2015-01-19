@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Geek Owls</title>
+<script type="text/javascript" src="js/jquery-1.js"></script>
+<script type="text/javascript" src="js/jquery_002.js"></script>
+<script type="text/javascript" src="js/jquery_003.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.plusanchor.js"></script>
+<script type="text/javascript" src="js/jquery.tooltipster.js"></script>
+<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+<link rel="stylesheet" type="text/css" href="css/tooltipster-noir.css" />
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="flexslider.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" charset="utf-8">
+		
+		$(window).load(function() {
+		$('.flexslider').flexslider();
+		$(window).stellar();
+		});
+    </script> 
+	<script type="text/javascript" charset="utf-8">
+		jQuery(document).ready(function($){
+			$('body').plusAnchor({
+				easing: 'swing',
+				speed: 1500
+			});
+		    $('#my_tooltip').tooltipster({theme: 'tooltipster-noir',animation: 'fade',
+                content: $('<span ><img src="images/usman.png" width=230px; height=230px; /><br>I am Usman, I am here because <br>I need creative flare to avoid<br> discomfort. I have a "degree"<br> in engineering so you can <br>still contact me to execute <br>inventive ideas. </span>')
+            });
+			$('#my_tooltip2').tooltipster({theme: 'tooltipster-noir',animation: 'fade',
+                content: $('<span ><img src="images/phone.png" width=140px; height=140px; /><br> Contact Us<br> +92 345 477 8871 </span>')
+            });
+		}); 
+	</script>
+	<script type="text/javascript">
+    $(window).load(function() {
+    $('#blades').addClass('rotation');
+	$('#Wheel1,#Wheel2').addClass('continous_rotation');
+	//$('#Projector_light').addClass('blink_light');
+	//$(' #Projector_light'  ).mouseover(function() {
+		//$(this).removeClass('blink_light');
+		
+		//});
+		//	$(' #BoardC'  ).mouseover(function() {
+		//$(' #Projector_light').removeClass('blink_light');
+		
+		//});
+		
+	var count=1;
+    $('#ha').click(function(){
+		//$('#ha').removeClass('rot');
+		$(this).toggleClass('rot');
+		newPhotoPosition = count*-156+ 'px';
+		$('#inner1').animate({left: newPhotoPosition}, 1000);
+		$('#inner2').delay(400).animate({left: newPhotoPosition}, 1000);
+		$('#inner3').delay(800).animate({left: newPhotoPosition}, 1000);
+		$('#inner4').delay(1200).animate({left: newPhotoPosition}, 1000);
+
+		count++;
+		if(count>2)
+		{count=0;}
+	});
+	
+	
+	
+	
+  });
+  
+  	$(document).scroll(function(){
+    var y=$(this).scrollTop();
+	$('p').text("Scroll top Value =" +y);
+		
+	if( y<500)
+    {   
+	$('#blades').addClass('rotation');
+        
+    }
+	else
+	{
+		 $('#blades').removeClass('rotation');
+		}
+
+			if( y<600 || y>1000   )
+    {   
+	$('#Shut').removeClass('shutter_animation');
+	$('h3').text("Its true")
+    }
+	else
+	{
+		$('#Shut').addClass('shutter_animation');	 
+		 $('h3').text("Its not true")
+		}
+
+
+
+	
+	
+	});
+
+</script>
+
+
+
+</head>
+
+<body>
+	<div class="menu_container" >
+	 <a class="about" href="#Scene2">About<span ></span></a>
+	 <a class="work" href="#Scene3">Tools<span ></span></a>
+	 <a class="logo" id="fu" href="#Scene1"><div ></div></a>
+	 <a class="special" href="#Scene4">Work<span ></span></a>
+	 <a class="contact" href="#Scene5">Contact<span ></span></a>
+	 
+	
+	</div>
+        <div class="clear"></div>	
+    <div class="owl">
+    </div>
+    <div class="clear"></div>
+<div class="container scene_1" id="Scene1">
+		<span class="Scene1_Heading">The Geek Has Landed</span>
+		<span class="Scene1_Heading2">Let's Explore!</span>
+		<span class="Scene1_Text">GEEK.OWLS 0 Miles</span>
+    	<span class="cactus"></span>
+      	<span class="parachute"></span>
+     	<span class="board"></span>
+        <span class="windmill_poll"></span>
+        <span class="windmill_blades" id="blades"></span>
+        <span class="Grass"></span>
+        <span class="tug"></span>
+        <span class="shadow"></span>
+        <span class="hump"></span>
+        <span class="hump_small"></span>
+      <div class="clouds"></div>
+        
+        
+        
+	</div>
+	<div class="container scene_2" >
+    <span  id="Scene2" class="Scene_Anchor"></span>
+	<span class="Scene2_Heading"><h1 style="color:rgb(224, 219, 197); text-shadow:1px 1px 1px rgb(122, 131, 111);">About us</h1>We are techies who turned our passion into an amazing venture</span>
+		<span class="Display_Container">
+			<div class="Display_Container_Inner">
+			Developers   Designers   Engineers
+			</div>
+		</span>
+	  <span class="Scene2_Shop"></span>
+	  <span class="Scene2_Shop_Window"></span>
+      <span class="Scene2_Scooter"></span>
+       <span class="Scene2_Bench"></span>
+       <span class="Scene2_Flower"></span> 
+       <span class="Scene2_Grass"></span> 
+       <span class="Scene2_Flower"></span> 
+       <span class="Scene2_Lamp1"></span> 
+       <span class="Scene2_Lamp2"></span> 
+       <span class="Streetlight2"></span> 
+       <span class="Scene2_Lamp3"></span> 
+       <span class="Scene2_Stars" data-stellar-ratio="0.5" data-stellar-vertical-offset="-15"></span> 
+       <div class="Shutter_Container">
+	   		<img src="images/Scene2_Shutter.png" class="Scene2_Shutter" id="Shut" alt="Shutter"> 
+       </div>
+       
+       </div>
+	</div> 
+	
+    <div class="container scene_3" >
+    <span  id="Scene3" class="Scene_Anchor"></span>
+	
+            <span class="Scene3_Banner"></span>
+            <span class="Scene3_Banner2"></span>
+            <span class="Scene3_Banner3"></span>
+          <span class="Scene3_Banner4"></span> 
+          <span class="Scene3_Clocks"></span> 
+          <span class="Scene3_Computer"></span> 
+          <span class="Scene3_Light"></span>
+             <span id="ha" class="handle"></span>
+             <span class="base"></span>
+          <span class="Scene3_Light2"></span> 
+          <span class="Scene3_Light3"></span> 
+          <span class="Scene3_Light4"></span> 
+      <span class="Scene3_Bench"></span> 
+   	  <div id="panel1" class="panel_container">
+		<div class="container_inner" id="inner1">
+			<img class="img1" src="Game_Design1.png" alt="Banner">
+			<img class="img2" src="Game_Design2.png" alt="Logos">
+			<img class="img3" src="Game_Design3.png" alt="Websites">
+		</div>
+
+	</div>
+	<div id="panel2" class="panel_container">
+		<div class="container_inner" id="inner2">
+			<img class="img1" src="Graphics_Design1.png" alt="Banner">
+			<img class="img2" src="Graphics_Design2.png" alt="Logos">
+			<img class="img3" src="Graphics_Design3.png" alt="Websites">
+		</div>
+
+	</div>
+       	  <div id="panel3" class="panel_container">
+		<div class="container_inner" id="inner3">
+			<img class="img1" src="Video_Design1.png" alt="Banner">
+			<img class="img2" src="Video_Design2.png" alt="Logos">
+			<img class="img3" src="Video_Design3.png" alt="Websites">
+		</div>
+
+	</div>
+	<div id="panel4" class="panel_container">
+		<div class="container_inner" id="inner4">
+			<img class="img1" src="Web_Design1.png" alt="Banner">
+			<img class="img2" src="Web_Design2.png" alt="Logos">
+			<img class="img3" src="Web_Design3.png" alt="Websites">
+		</div>
+
+	</div>
+     <span class="Scene3_Heading"><h1 style="color:#FFF; text-shadow:1px 1px 1px #939B8B;">Our Tools</h1>We engage industry standard design tools to passionately pursue impactful ideas</span> 
+	</div>
+        <div class="container scene_4" >
+			
+		<span  id="Scene4" class="Scene_Anchor" ></span>
+            <span class="Scene4_Board" ></span>
+            <span class="Scene4_Books1"></span>
+            <span class="Scene4_Books2"></span>
+          <span class="Scene4_Books3"></span> 
+          <span class="Scene4_Books4"></span>
+		<span class="Scene4_Telescope"></span>		  
+          <span class="Scene4_Poster1"></span> 
+          <span class="Scene4_Poster2"></span> 
+          <span class="Scene4_Projector"></span> 
+          <span class="Scene4_Projector_Light" id="Projector_light"></span>
+          <span class="Scene4_Switch"></span> 
+          <span class="Scene4_Projector_Wheel" id="Wheel1"></span> 
+          <span class="Scene4_Projector_Wheel2" id="Wheel2"></span>
+          <section class="Board_Container" id="BoardC">
+          		<div class="flexslider">
+                	<ul  class="slides">
+                    	<li class="flex-active-slide">
+                        	<div class="Slider_images">
+                            <img src="images/Scene4_Boardlogo.png" width="530" height="500" alt="Logos"> 
+                            </div>
+                        </li>
+                         <li >
+                        	<div class="Slider_images">
+                            <img src="images/Scene4book.png" width="530" height="500" alt="Logos"> 
+                            </div>
+                        </li>
+                        <li >
+                        	<div class="Slider_images">
+                            <img src="images/Scene4web.png" width="530" height="500" alt="Logos"> 
+                            </div>
+                        </li>
+                       </ul>
+                  </div>
+          </section> 
+		<span class="Scene4_Heading"><h1 style="color:#CFD7C4; text-shadow:1px 1px 1px #656C5C;">Our Work</h1>We believe that innovation is the creative realization of the propositions we once thought impossible</span>
+		</div>
+         <div class="container scene_5" >
+         <span  id="Scene5" class="Scene_Anchor"></span>
+           <span class="Scene5_Booth" id="my_tooltip2"></span>
+           <span class="Scene5_Board"></span>
+           <span class="Scene5_Grass"></span>
+          <span class="Scene5_Parachute" id="Scene5P"></span> 
+          <span class="Scene5_Streetlight"></span> 
+          <span class="Scene5_Streetlight2"></span> 
+          <span class="Scene5_Stars" data-stellar-ratio="0.5" data-stellar-vertical-offset="-15"></span>
+		<span class="Scene5_Heading"><h1 style="color:#B4C0A3; text-shadow:1px 1px 1px #656C5C;">Contact Us </h1> We are here for you!</span>
+		<span class="Scene5_Text"><span style="color:#d65739;">Find us on</span> <br> Facebook</span>
+		<span class="Scene5_Text2" id="my_tooltip">Designed & Developed by : UW</span>
+		<div class="arrow-right"></div>
+
+       
+		</div>
+    
+    
+</body>
+</html>
