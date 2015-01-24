@@ -414,6 +414,7 @@ hr{
 	min-width:280px;
 	width:100%;
 	position:relative;
+	z-index:3
 }
 
 .ss-top-of-page{

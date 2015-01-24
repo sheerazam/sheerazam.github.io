@@ -1240,6 +1240,7 @@ border-top:4px solid black;
 	width:380px;
 	height:147px;
 	transition: all 2s 0s;
+	z-index:0;
 }
 .footer_move{
 	top:360px;
